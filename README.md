@@ -1,8 +1,12 @@
-<img width="1280" height="640" alt="Useless Chatbot" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
+<p align="center">
+  <img src="useless-chatbot/frontend/logo.jpg" alt="Useless Chatbot Logo" width="180" />
+</p>
 
-# Useless Chatbot 💀
+<h1 align="center">Useless Chatbot 💀</h1>
 
-A chatbot that takes your messages seriously... just kidding.
+<p align="center">
+  A chatbot that takes your messages seriously... just kidding.
+</p>
 
 Instead of trying to be helpful, the Useless Chatbot is designed to give pointless, sarcastic, random, and sometimes emotionally inappropriate responses. Depending on what you say, it can respond with text, a different emotion, or a reaction meme.
 
@@ -11,10 +15,8 @@ Instead of trying to be helpful, the Useless Chatbot is designed to give pointle
 ### Team Name: HMM
 
 ### Team Members
-- Team Lead: Abhinav Ajayakumar - Sree Buddha College of Engineering, Pattoor
-- Member 2: Aadithyan P Ashok - Sree Buddha College of Engineering, Pattoor
-- Member 3: Abhishek Krishna - Sree Buddha College of Engineering, Pattoor
-- Member 4: Anathakrishnan KB - Sree Buddha College of Engineering, Pattoor
+- **Abhinav Ajayakumar** - Sree Buddha College of Engineering, Pattoor
+- **Thejas A** - Sree Buddha College of Engineering, Pattoor
 
 ### Project Description
 
@@ -82,10 +84,6 @@ Frontend displays the reaction
 5. The backend returns `text`, `emotion`, and optionally a meme path.
 6. The frontend displays the text response or meme reaction.
 
-The backend API accepts a chat message and returns text, emotion, and an optional meme path. fileciteturn7file0L2-L6
-
-The response engine uses category patterns and supports categories including greetings, bragging, success, failure, sadness, anger, boredom, love, questions, and generic messages. fileciteturn8file0L2-L6
-
 ## Installation
 
 ### 1. Clone the repository
@@ -119,8 +117,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-The current backend requirements contain FastAPI and Uvicorn. fileciteturn10file0L2-L6
-
 ## Run
 
 ### 1. Start the backend
@@ -145,7 +141,7 @@ Open:
 useless-chatbot/frontend/index.html
 ```
 
-The frontend is configured to send requests to the local FastAPI server at `http://127.0.0.1:8000`. fileciteturn9file0L2-L6
+The frontend is configured to send requests to the local FastAPI server at `http://127.0.0.1:8000`.
 
 ## Features
 
@@ -159,8 +155,6 @@ The frontend is configured to send requests to the local FastAPI server at `http
 - 🌐 Browser-based frontend
 - ⚡ FastAPI backend API
 - 🛠️ Easy-to-edit response and category files
-
-Response and meme content are kept in `replies.py`, making the chatbot easy to customize. fileciteturn11file0L2-L6
 
 ## Project Structure
 
@@ -187,33 +181,24 @@ hmm/
 
 ## Screenshots
 
-Add screenshots of the working application here before final submission.
+### Main Chat Interface
 
-![Chat Interface](Add screenshot URL here)
-*Main chatbot interface showing a conversation.*
+![Main Chat Interface](screenshots/chat-interface.jpg)
 
-![Meme Reaction](Add screenshot URL here)
-*Example of the chatbot responding with a reaction meme.*
+### Chatbot Conversation
 
-![Different Emotions](Add screenshot URL here)
-*Examples of different emotional responses for different inputs.*
+![Chatbot Conversation](screenshots/chat-conversation.jpg)
 
-## Project Demo
+### Chatbot Response
 
-### Video
+![Chatbot Response](screenshots/chat-response.jpg)
 
-Add your demo video link here.
-
-### Additional Demos
-
-Add any additional demo links, presentation links, or documentation here.
+> **Note:** The screenshot files are shown here using their intended repository paths. Add the three attached screenshots to the `screenshots/` folder with these filenames to make them render on GitHub.
 
 ## Team Contributions
 
-- **Abhinav Ajayakumar:** Backend logic, category detection, response engine, API integration, and project integration.
-- **Aadithyan P Ashok:** Frontend/UI development and interaction design.
-- **Abhishek Krishna:** Response content, meme mapping, testing, and debugging.
-- **Anathakrishnan KB:** Documentation, testing, and project presentation.
+- **Abhinav Ajayakumar:** Project development, backend logic, category detection, response engine, API integration, and project integration.
+- **Thejas A:** Frontend/UI development, interaction design, testing, and project integration.
 
 ## Future Improvements
 
